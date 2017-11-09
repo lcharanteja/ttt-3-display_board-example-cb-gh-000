@@ -5,7 +5,7 @@ def display_board
   board = "   "+"|"+"   "+"|"+"   \n"+"-"*11+"\n"
   board += board
   board += "   "+"|"+"   "+"|"+"   \n"
-  puts baord
+  puts board
 end
 
 display_board
