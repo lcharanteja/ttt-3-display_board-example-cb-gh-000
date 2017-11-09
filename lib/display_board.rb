@@ -2,4 +2,6 @@
 def display_board
   #include code Here
   puts "Welcome to Tic Tac Toe"
+
+  puts "   "+"|"+"   "+"|"+"   "
 end
