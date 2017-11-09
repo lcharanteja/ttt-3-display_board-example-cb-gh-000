@@ -2,12 +2,10 @@
 def display_board
   #include code Here
   puts "Welcome to Tic Tac Toe"
-
-  puts "   "+"|"+"   "+"|"+"   "
-  puts "-"*11
-  puts "   "+"|"+"   "+"|"+"   "
-  puts "-"*11
-  puts "   "+"|"+"   "+"|"+"   "
+  board = "   "+"|"+"   "+"|"+"   \n"+"-"*11+"\n"
+  board += board
+  board += "   "+"|"+"   "+"|"+"   \n"
+  puts baord
 end
 
 display_board
